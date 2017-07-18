@@ -7,3 +7,6 @@ ny = wikipedia.page("紐約")
 ny.content
 x = ny.content
 x[0:x.find('，')]
+=================================
+from hanziconv import HanziConv
+print(HanziConv.toTraditional(x))
